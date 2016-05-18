@@ -1,6 +1,6 @@
-# mime-types icon
+# mime-type icons
 
-Site that provides mime-type icons
+Site that provides mime-type icons.
 
 
 ## How to use
