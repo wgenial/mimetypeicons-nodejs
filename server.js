@@ -11,7 +11,7 @@ app = module.exports = express();
 app.configure(function() {
   app.use(express.bodyParser());
   app.use(express.methodOverride());
-  app.use(express.static('public'));
+  app.use(express.static('public', { maxAge:2592000000 } ));
   return app.use(app.router);
 });
 
