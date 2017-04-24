@@ -49,7 +49,7 @@ module.exports = {
     }
 
     iconUrl = "" + icons_path +"/"+ size + "/" + iconname + icon_extension;
-    return res.redirect(iconUrl);
+    return res.redirect(301, iconUrl);
   },
   initialize: function() {
     fs.readFile(icons_manifest, 'utf8', function (err, data) {
