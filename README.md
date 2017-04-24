@@ -12,36 +12,35 @@ You can also use the ![?size=32][?size=32] [?size=32][?size=32] to get a consist
 
 
 ## Examples
-![/pdf][/pdf] http://mimetypeicons-wgenial.rhcloud.com/.docx?size=16
-[/pdf]: http://mimetypeicons-wgenial.rhcloud.com/.docx?size=16
+![/doc][/doc]
+document.doc
 
-![/html][/html] https://mimetypeicons-wgenial.rhcloud.com/page.html?size=16
-[/html]: https://mimetypeicons-wgenial.rhcloud.com/page.html?size=16
+![/docx][/docx] 
+document.docx
 
-![/jpeg][/jpeg] https://mimetypeicons-wgenial.rhcloud.com/image.jpeg?size=32
-[/jpeg]: https://mimetypeicons-wgenial.rhcloud.com/image.jpeg?size=32
+![/xls][/xls] 
+excel.xls
 
-![/doc][/doc] https://mimetypeicons-wgenial.rhcloud.com/file.doc?size=16
-[/doc]: http://mimetypeicons-wgenial.rhcloud.com/file.doc?size=16
+![/xlsx][/xlsx] 
+excel.xlsx
 
-![/xls][/xls] http://mimetypeicons-wgenial.rhcloud.com/.xls?size=64
-[/xls]: http://mimetypeicons-wgenial.rhcloud.com/.xls?size=64
+![/html][/html]
+page.html
 
-![/js][/js] http://mimetypeicons-wgenial.rhcloud.com/file.js
-[/js]: http://mimetypeicons-wgenial.rhcloud.com/file.js
+![/jpeg][/jpeg]
+image.jpeg
 
+![/js][/js]
+file.js
 
 ### Using a default
 
-![&default=xml][&default=xml] http://mimetypeicons-wgenial.rhcloud.com/notfound?size=32&default=xml
-[&default=xml]: http://mimetypeicons-wgenial.rhcloud.com/notfound?size=32&default=xml
-
+![default=xml][default=xml]
+not-found.doc
 
 ### Returning an icon [SVG](https://www.w3.org/TR/SVGMobile/)
 
-![/svg-format][/svg-format] https://mimetypeicons-wgenial.rhcloud.com/mp3?size=scalable
-[/svg-format]: https://mimetypeicons-wgenial.rhcloud.com/mp3?size=scalable
-
+![/svg-format][/svg-format]
 
 ## Credits
 
@@ -49,8 +48,31 @@ Thanks to [faenza-icon-theme](https://code.google.com/archive/p/faenza-icon-them
 
 This project was inspired in [https://github.com/ptarjan/stdicon](https://github.com/ptarjan/stdicon) and [http://darvin.github.io/mimetype-icon/](http://darvin.github.io/mimetype-icon/)
 
-[/excel.xls]: http://mimetypeicons-wgenial.rhcloud.com/excel.xls?size=16
-[/png]: http://mimetypeicons-wgenial.rhcloud.com/png?size=16
-[/application/pdf]: http://mimetypeicons-wgenial.rhcloud.com/application/pdf?size=16
-[?size=32]: http://mimetypeicons-wgenial.rhcloud.com/doc?size=32
-[?default=...]: http://mimetypeicons-wgenial.rhcloud.com/404.icon?size=16&default=php
+[/doc]: https://mimetypeicons-wgenial.rhcloud.com/word.doc
+
+[/docx]: https://mimetypeicons-wgenial.rhcloud.com/word.docx
+
+[/xls]: https://mimetypeicons-wgenial.rhcloud.com/excel.xls?size=32
+
+[/xlsx]: https://mimetypeicons-wgenial.rhcloud.com/excel.xlsx?size=32
+
+[/html]: https://mimetypeicons-wgenial.rhcloud.com/page.html
+
+[/png]: https://mimetypeicons-wgenial.rhcloud.com/png
+
+[/jpeg]: https://mimetypeicons-wgenial.rhcloud.com/image.jpeg
+
+[/js]:
+https://mimetypeicons-wgenial.rhcloud.com/javascript.js
+
+[/svg-format]:
+https://mimetypeicons-wgenial.rhcloud.com/file.mp3?size=scalable
+
+[default=xml]:
+https://mimetypeicons-wgenial.rhcloud.com/notfound.doc?size=32&default=xml
+
+[/application/pdf]: https://mimetypeicons-wgenial.rhcloud.com/application/pdf?size=16
+
+[?size=32]: https://mimetypeicons-wgenial.rhcloud.com/doc?size=32
+
+[?default=...]: https://mimetypeicons-wgenial.rhcloud.com/404.icon?size=16&default=php
