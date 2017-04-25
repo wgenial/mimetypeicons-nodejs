@@ -5,7 +5,7 @@ Site that provides mime-type icons.
 
 ## How to use
 
-You can use a file extension like ![/png][/png] [/png][/png], a filename like ![/excel.xls][/excel.xls] [/excel.xls][/excel.xls], a mimetype
+You can use a file extension like ![/png][/png] [/png][/png], a filename like ![/xls][/xls] [excel.xls](https://mimetypeicons-wgenial.rhcloud.com/excel.xls), a mimetype
 like ![/application/pdf][/application/pdf] [/application/pdf][/application/pdf] .
 
 You can also use the ![?size=32][?size=32] [?size=32][?size=32] to get a consistent size of icons, and the  ![?default=...][?default=...] [?default=<name_of_icon>][?default=...] to force a default icon if not found the file extension.
@@ -52,9 +52,9 @@ This project was inspired in [https://github.com/ptarjan/stdicon](https://github
 
 [/docx]: https://mimetypeicons-wgenial.rhcloud.com/word.docx
 
-[/xls]: https://mimetypeicons-wgenial.rhcloud.com/excel.xls?size=32
+[/xls]: https://mimetypeicons-wgenial.rhcloud.com/excel.xls
 
-[/xlsx]: https://mimetypeicons-wgenial.rhcloud.com/excel.xlsx?size=32
+[/xlsx]: https://mimetypeicons-wgenial.rhcloud.com/excel.xlsx
 
 [/html]: https://mimetypeicons-wgenial.rhcloud.com/page.html
 
