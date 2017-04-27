@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wgenial/mimetypeicons.svg?branch=master)](https://travis-ci.org/wgenial/mimetypeicons)
+
 # mime-type icons
 
 Site that provides mime-type icons.
