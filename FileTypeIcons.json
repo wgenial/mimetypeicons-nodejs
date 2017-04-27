@@ -215,7 +215,8 @@
     "svg": "x-office-drawing",
     "text-x-preview": "empty",
     "application-x-font-linux-psf": "font-x-generic",
-    "audio": "audio-x-generic"
+    "audio": "audio-x-generic",
+    "image-webp": "image-x-generic"
   },
   "Names": [
     "application-pkcs7-mime",
@@ -511,6 +512,7 @@
     "text-x-preview",
     "gnome-package",
     "application-msword",
-    "text-css"
+    "text-css",
+    "image-webp"
   ]
 }
