@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/wgenial/mimetypeicons.svg?branch=master)](https://travis-ci.org/wgenial/mimetypeicons)
-
 # mime-type icons
 
 Site that provides mime-type icons.
 
+[![Build Status](https://travis-ci.org/wgenial/mimetypeicons.svg?branch=master)](https://travis-ci.org/wgenial/mimetypeicons)
 
 ## How to use
 
@@ -78,3 +77,7 @@ https://mimetypeicons-wgenial.rhcloud.com/notfound.doc?size=32&default=xml
 [?size=32]: https://mimetypeicons-wgenial.rhcloud.com/doc?size=32
 
 [?default=...]: https://mimetypeicons-wgenial.rhcloud.com/404.icon?size=16&default=php
+
+## Autor
+| [<img src="https://avatars0.githubusercontent.com/u/41435?v=4&s=120"><br><sub>@giovanigenerali</sub>](https://github.com/giovanigenerali) |
+| :---: |
