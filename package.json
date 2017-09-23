@@ -5,8 +5,9 @@
   "private": true,
   "main": "server.js",
   "scripts": {
+    "start:dev": "nodemon server.js",
     "start": "node server.js",
-    "test": "mocha --timeout 10000"
+    "test": "nodemon --timeout 10000 --watch . --exec 'mocha ./test/index.js || true'"
   },
   "keywords": [
     "mimetypes",
