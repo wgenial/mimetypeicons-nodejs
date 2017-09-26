@@ -1,7 +1,5 @@
-#!/bin/env node
 var express = require('express');
-var port = process.env.OPENSHIFT_NODEJS_PORT || 3000;
-var ip = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 3000;
 var routes = require('./routes');
 var app = express();
 
@@ -30,7 +28,7 @@ routes.initialize();
 
 app.routes.get[1].regexp = /^\/(?:(.+?))\/?$/i;
 
-app.listen(port, ip, function() {
+app.listen(port, function() {
   return console.log("Listening on " + port + "\nPress CTRL-C to stop server.");
 });
 
