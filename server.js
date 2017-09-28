@@ -1,5 +1,8 @@
+if (process.env.NODE_ENV == "production") {
+  require('newrelic');
+}
 var express = require('express');
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 3000;
+var port = process.env.PORT || 3000;
 var routes = require('./routes');
 var app = express();
 
