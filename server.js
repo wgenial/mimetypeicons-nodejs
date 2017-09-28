@@ -1,6 +1,4 @@
-if (process.env.NODE_ENV == "production") {
-  require('newrelic');
-}
+require('newrelic');
 var express = require('express');
 var port = process.env.PORT || 3000;
 var routes = require('./routes');
