@@ -1,8 +1,10 @@
 require('newrelic');
 var express = require('express');
-var port = process.env.PORT || 3000;
 var routes = require('./routes');
 var app = express();
+var nodalytics = require('nodalytics');
+
+app.use(nodalytics(process.env.GOOGLE_ANALYTICS_ID));
 
 app.configure(function() {
   app.use(express.bodyParser());
@@ -29,6 +31,7 @@ routes.initialize();
 
 app.routes.get[1].regexp = /^\/(?:(.+?))\/?$/i;
 
+var port = process.env.PORT || 3000;
 app.listen(port, function() {
   return console.log("Listening on " + port + "\nPress CTRL-C to stop server.");
 });

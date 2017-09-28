@@ -26,6 +26,7 @@
     "lodash.indexof": "^4.0.3",
     "mime-types": "^2.1.15",
     "newrelic": "^2.2.2",
+    "nodalytics": "^1.1.0",
     "request": "^2.72.0"
   },
   "engines": {
