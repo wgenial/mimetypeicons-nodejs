@@ -2,7 +2,7 @@
 
 Site that provides mime type icons.
 
-[![Build Status](https://travis-ci.org/wgenial/mimetypeicons.svg?branch=master)](https://travis-ci.org/wgenial/mimetypeicons)
+[![Build Status](https://travis-ci.org/wgenial/mimetypeicons-nodejs.svg?branch=master)](https://travis-ci.org/wgenial/mimetypeicons-nodejs)
 
 ## How to use
 
