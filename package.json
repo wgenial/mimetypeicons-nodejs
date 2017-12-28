@@ -8,7 +8,7 @@
     "start:dev": "nodemon server.js",
     "start": "node server.js",
     "test:dev": "nodemon --timeout 10000 --watch . --exec 'mocha ./test/index.js || true'",
-    "test": "mocha --timeout 10000"
+    "test": "mocha --timeout 10000  --exit"
   },
   "keywords": [
     "mimetypes",
