@@ -6,8 +6,7 @@ Site that provides mime type icons.
 
 ## How to use
 
-You can use a file extension like ![/png][/png] [/png][/png], a filename like ![/xls][/xls] [excel.xls](https://mimetypeicons.ga/excel.xls), a mimetype
-like ![/application/pdf][/application/pdf] [/application/pdf][/application/pdf] .
+You can use a file extension like ![/png][/png] [/png][/png], a filename like ![/xls][/xls] [excel.xls](https://mimetypeicons.ga/excel.xls).
 
 You can also use the ![?size=32][?size=32] [?size=32][?size=32] to get a consistent size of icons, and the  ![?default=...][?default=...] [?default=<name_of_icon>][?default=...] to force a default icon if not found the file extension.
 

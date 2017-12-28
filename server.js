@@ -1,39 +1,16 @@
-require('newrelic');
-var express = require('express');
-var routes = require('./routes');
-var app = express();
-var nodalytics = require('nodalytics');
+const express = require('express');
+const routes = require('./routes');
+const app = express();
+const port = process.env.PORT || 8080;
+const maxAge = process.env.NODE_ENV == 'production' ? 2592000000 : 0; // default is 30 days
 
-app.use(nodalytics(process.env.GOOGLE_ANALYTICS_ID));
-
-app.configure(function() {
-  app.use(express.bodyParser());
-  app.use(express.methodOverride());
-  app.use(express.static('public', { maxAge:2592000000 } ));
-  return app.use(app.router);
-});
-
-app.configure('development', function() {
-  return app.use(express.errorHandler({
-    dumpExceptions: true,
-    showStack: true
-  }));
-});
-
-app.configure('production', function() {
-  return app.use(express.errorHandler());
-});
+app.use(express.static('public', { maxAge: maxAge }));
 
 app.get('/', routes.home);
 app.get("/:icon", routes.icon);
 
-routes.initialize();
+routes.init();
 
-app.routes.get[1].regexp = /^\/(?:(.+?))\/?$/i;
+app.listen(port, () => console.log("Listening on " + port + "\nPress CTRL-C to stop server."));
 
-var port = process.env.PORT || 3000;
-app.listen(port, function() {
-  return console.log("Listening on " + port + "\nPress CTRL-C to stop server.");
-});
-
-exports = module.exports = app;
+module.exports = app;

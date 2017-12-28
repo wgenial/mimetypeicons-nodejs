@@ -1,50 +1,56 @@
-var request = require('request');
-var fs = require("fs");
-var http = require("http");
-var mime = require('mime-types');
-var indexOf = require('lodash.indexof');
+const fs = require('fs');
+const mime = require('mime-types');
+const indexOf = require('lodash.indexof');
 
-var site = "https://github.com/wgenial/mimetypeicons";
-var icons_path = "/mimetypes-icons";
-var icons_manifest = 'FileTypeIcons.json';
-var icons_directory_names = ["directory", "dir", "folder", "text/directory", "application/folder"];
-var icons_manifest_json = null;
-var icons_size_default = "32";
+const site = 'https://github.com/wgenial/mimetypeicons';
+const icons_path = '/mimetypes-icons';
+const icons_manifest = 'FileTypeIcons.json';
+const icons_directory_names = ['directory', 'dir', 'folder', 'text/directory', 'application/folder'];
+const icons_size_default = '32';
+
+let icons_manifest_json = null;
 
 module.exports = {
-  home: function(req, res, next) {
+  // default, redirect to project page
+  home: (req, res) => {
     return res.redirect(site);
   },
-  icon: function(req, res, next) {
+
+  // load icon and redirect
+  icon: (req, res) => {
+
+    let defaultMime, 
+        icon, 
+        iconUrl, 
+        iconname, 
+        mimetype, 
+        size, 
+        icon_extension, 
+        status_code = 301, 
+        icon_found = true, 
+        size_found = true;
     
-    var defaultMime, icon, iconUrl, iconname, mimetype, size, icon_extension, 
-        status_code = 301, icon_found = true, size_found = true;
-    
+    // get icon
     icon = req.params.icon;
-
-    size = req.query.size;
-    if (size == null) {
-      size = icons_size_default;
-    }
     
-    defaultMime = req.query["default"];
-    if (defaultMime == null) {
-      defaultMime = ".bin";
-    }
+    // set icon size
+    size = req.query.size != null ? req.query.size : icons_size_default;
+
+    // set default mime type
+    defaultMime = req.query['default'] != null ? req.query['default'] : '.bin';
     mime.default_type = mime.lookup(defaultMime);
-    
-    if (indexOf(icons_directory_names, icon) >= 0) {
-      iconname = "text-directory";
-    } else {
-      
-      mimetype = mime.lookup(icon);
 
-      if (mimetype == false || indexOf(icons_manifest_json.Names, mimetype.replace("/", "-")) == -1) {
+    // set icon name
+    if (indexOf(icons_directory_names, icon) >= 0) {
+      iconname = 'text-directory';
+    } else {
+      mimetype = mime.lookup(icon);
+      if (mimetype == false || indexOf(icons_manifest_json.Names, mimetype.replace('/', '-')) == -1) {
         mimetype = mime.default_type;
-        iconname = mimetype.replace("/", "-");
+        iconname = mimetype.replace('/', '-');
         icon_found = false;
-      }else {
-        iconname = mimetype.replace("/", "-");
+      } else {
+        iconname = mimetype.replace('/', '-');
       }
     }
 
@@ -55,12 +61,13 @@ module.exports = {
     }
 
     // icon extension
-    if (size == "scalable") {
-      icon_extension = ".svg";
+    if (size == 'scalable') {
+      icon_extension = '.svg';
     } else {
-      icon_extension = ".png";
+      icon_extension = '.png';
     }
 
+    // if icon not found, set status code 302
     if (!icon_found) {
       status_code = 302;
     } else if (icon_found && !size_found) {
@@ -68,12 +75,14 @@ module.exports = {
     }
 
     // uri to redirect
-    iconUrl = "" + icons_path +"/"+ size + "/" + iconname + icon_extension;
+    iconUrl = '' + icons_path +'/'+ size + '/' + iconname + icon_extension;
     return res.redirect(status_code, iconUrl);
 
   },
-  initialize: function() {
-    fs.readFile(icons_manifest, 'utf8', function (err, data) {
+
+  // load json manifest
+  init: () => {
+    fs.readFile(icons_manifest, 'utf8', (err, data) => {
       if (err) {
         console.log('Error: ' + err);
         return;
