@@ -48,34 +48,34 @@ Thanks to [faenza-icon-theme](https://code.google.com/archive/p/faenza-icon-them
 
 This project was inspired in [https://github.com/ptarjan/stdicon](https://github.com/ptarjan/stdicon) and [http://darvin.github.io/mimetype-icon/](http://darvin.github.io/mimetype-icon/)
 
-[/doc]: https://mimetypeicons.ga/word.doc
+[/doc]: https://mimetypeicons.gq/word.doc
 
-[/docx]: https://mimetypeicons.ga/word.docx
+[/docx]: https://mimetypeicons.gq/word.docx
 
-[/xls]: https://mimetypeicons.ga/excel.xls
+[/xls]: https://mimetypeicons.gq/excel.xls
 
-[/xlsx]: https://mimetypeicons.ga/excel.xlsx
+[/xlsx]: https://mimetypeicons.gq/excel.xlsx
 
-[/html]: https://mimetypeicons.ga/page.html
+[/html]: https://mimetypeicons.gq/page.html
 
-[/png]: https://mimetypeicons.ga/png
+[/png]: https://mimetypeicons.gq/png
 
-[/jpeg]: https://mimetypeicons.ga/image.jpeg
+[/jpeg]: https://mimetypeicons.gq/image.jpeg
 
 [/js]:
-https://mimetypeicons.ga/javascript.js
+https://mimetypeicons.gq/javascript.js
 
 [/svg-format]:
-https://mimetypeicons.ga/file.mp3?size=scalable
+https://mimetypeicons.gq/file.mp3?size=scalable
 
 [default=xml]:
-https://mimetypeicons.ga/notfound.doc?size=32&default=xml
+https://mimetypeicons.gq/notfound.doc?size=32&default=xml
 
-[/application/pdf]: https://mimetypeicons.ga/application/pdf?size=16
+[/application/pdf]: https://mimetypeicons.gq/application/pdf?size=16
 
-[?size=32]: https://mimetypeicons.ga/doc?size=32
+[?size=32]: https://mimetypeicons.gq/doc?size=32
 
-[?default=...]: https://mimetypeicons.ga/404.icon?size=16&default=php
+[?default=...]: https://mimetypeicons.gq/404.icon?size=16&default=php
 
 ## Autor
 | [<img src="https://avatars0.githubusercontent.com/u/41435?v=4&s=120"><br><sub>@giovanigenerali</sub>](https://github.com/giovanigenerali) |
