@@ -9,9 +9,9 @@ Site that provides mime type icons.
 
 ## How to use
 
-You can use a file extension like ![/png][/png] [/png][/png], a filename like ![/xls][/xls] [excel.xls](https://mimetypeicons.ga/excel.xls).
+You can use a file extension like ![/png][/png] [/png][/png], a filename like ![/xls][/xls] [excel.xls](https://mimetypeicons.gq/excel.xls).
 
-You can also use the ![?size=32][?size=32] [?size=32][?size=32] to get a consistent size of icons, and the  ![?default=...][?default=...] [?default=<name_of_icon>][?default=...] to force a default icon if not found the file extension.
+You can also use the ![?size=32][?size=32] [?size=32][?size=32] to get a consistent size of icons, and the ![?default=...][?default=...] [?default=<name_of_icon>][?default=...] to force a default icon if not found the file extension.
 
 
 ## Examples
@@ -78,7 +78,7 @@ https://mimetypeicons.gq/notfound.doc?size=32&default=xml
 
 [?size=32]: https://mimetypeicons.gq/doc?size=32
 
-[?default=...]: https://mimetypeicons.gq/404.icon?size=16&default=php
+[?default=...]: https://mimetypeicons.gq/mimetypes-icons/32/application-octet-stream.png
 
 ## Autor
 | [<img src="https://avatars0.githubusercontent.com/u/41435?v=4&s=120"><br><sub>@giovanigenerali</sub>](https://github.com/giovanigenerali) |
