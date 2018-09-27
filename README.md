@@ -78,7 +78,7 @@ https://mimetypeicons.gq/notfound.doc?size=32&default=xml
 
 [?size=32]: https://mimetypeicons.gq/doc?size=32
 
-[?default=...]: https://mimetypeicons.gq/mimetypes-icons/32/application-octet-stream.png
+[?default=...]: https://mimetypeicons.gq/.unknown?default=.txt
 
 ## Autor
 | [<img src="https://avatars0.githubusercontent.com/u/41435?v=4&s=120"><br><sub>@giovanigenerali</sub>](https://github.com/giovanigenerali) |
