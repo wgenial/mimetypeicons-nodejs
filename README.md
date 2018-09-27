@@ -1,4 +1,4 @@
-# Mime Type Icons
+# Mime Type Icon
 
 Site that provides mime type icons.
 
