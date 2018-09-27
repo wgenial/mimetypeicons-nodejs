@@ -3,7 +3,7 @@
 Site that provides mime type icons.
 
 [![Build Status](https://travis-ci.org/wgenial/mimetypeicons-nodejs.svg?branch=master)](https://travis-ci.org/wgenial/mimetypeicons-nodejs)
-[![npm version](https://badge.fury.io/js/mimetypeicons.svg)](https://badge.fury.io/js/mimetypeicons)
+[![npm version](https://badge.fury.io/js/mimetypeicon.svg)](https://badge.fury.io/js/mimetypeicon)
 [![Known Vulnerabilities](https://snyk.io/test/github/wgenial/mimetypeicons-nodejs/badge.svg)](https://snyk.io/test/github/wgenial/mimetypeicons-nodejs)
 [<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/mimetypeicons-nodejs/blob/master/LICENSE)
 
