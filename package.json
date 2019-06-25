@@ -4,6 +4,10 @@
   "description": "Site that provides mimetype icons for hotlinking",
   "private": false,
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wgenial/mimetypeicons-nodejs"
+  },
   "scripts": {
     "start:dev": "nodemon server.js",
     "start": "node server.js",
