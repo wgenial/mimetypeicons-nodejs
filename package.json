@@ -1,6 +1,6 @@
 {
   "name": "mimetypeicon",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Site that provides mimetype icons for hotlinking",
   "private": false,
   "main": "server.js",
