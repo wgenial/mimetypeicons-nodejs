@@ -40,8 +40,8 @@
   },
   "devDependencies": {
     "mocha": "^4.1.0",
-    "nodemon": "^1.18.9",
+    "nodemon": "^1.19.1",
     "should": "^13.2.3",
-    "supertest": "^3.3.0"
+    "supertest": "^3.4.2"
   }
 }
